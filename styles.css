@@ -24,13 +24,14 @@
   --font-body: Montserrat, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
-  --scribble-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 14'%3E%3Cpath d='M3 9C35 3 70 12 108 7 145 3 180 11 217 6' fill='none' stroke='%23D96C2C' stroke-width='5.5' stroke-linecap='round'/%3E%3C/svg%3E");
-  --scribble-yellow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 14'%3E%3Cpath d='M3 9C35 3 70 12 108 7 145 3 180 11 217 6' fill='none' stroke='%23F2C94C' stroke-width='5.5' stroke-linecap='round'/%3E%3C/svg%3E");
-  --wave-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 12'%3E%3Cpath d='M3 7Q30 2 56 7T109 7T162 7T217 7' fill='none' stroke='%23D96C2C' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
-  --wave-yellow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 12'%3E%3Cpath d='M3 7Q30 2 56 7T109 7T162 7T217 7' fill='none' stroke='%23F2C94C' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
-  --sketch-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 14'%3E%3Cpath d='M3 10L26 4 48 11 74 5 99 11 124 4 149 10 173 5 197 10 217 6' fill='none' stroke='%23D96C2C' stroke-width='4.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  --double-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 16'%3E%3Cpath d='M3 6C50 2 120 9 217 5' fill='none' stroke='%23D96C2C' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M30 12C90 9 160 14 200 11' fill='none' stroke='%23D96C2C' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E");
-  --circle-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 110'%3E%3Cpath d='M150 10C68 10 14 26 12 52 10 80 70 100 154 100 236 100 290 82 288 52 286 24 226 8 138 11' fill='none' stroke='%23D96C2C' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  --scribble-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-6 -2 232 18' preserveAspectRatio='none'%3E%3Cpath d='M-4 9C32 3 72 12 110 7 148 3 188 11 226 6' fill='none' stroke='%23D96C2C' stroke-width='5.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  --scribble-yellow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-6 -2 232 18' preserveAspectRatio='none'%3E%3Cpath d='M-4 9C32 3 72 12 110 7 148 3 188 11 226 6' fill='none' stroke='%23F2C94C' stroke-width='5.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  --wave-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 14' preserveAspectRatio='none'%3E%3Cpath d='M0 8C12 2 24 2 36 8 48 14 60 14 72 8 84 2 96 2 108 8 120 14 132 14 144 8 156 2 168 2 180 8 192 14 204 14 216 8 220 6' fill='none' stroke='%23D96C2C' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --wave-yellow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 14' preserveAspectRatio='none'%3E%3Cpath d='M0 8C12 2 24 2 36 8 48 14 60 14 72 8 84 2 96 2 108 8 120 14 132 14 144 8 156 2 168 2 180 8 192 14 204 14 216 8 220 6' fill='none' stroke='%23F2C94C' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --sketch-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 16'%3E%3Cpath d='M0 10L22 4 44 12 66 4 88 12 110 4 132 12 154 4 176 12 198 4 220 10' fill='none' stroke='%23D96C2C' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --zigzag-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 16' preserveAspectRatio='none'%3E%3Cpath d='M0 12L20 3 40 13 60 4 80 13 100 3 120 13 140 4 160 13 180 3 200 13 220 4' fill='none' stroke='%23D96C2C' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --double-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 18' preserveAspectRatio='none'%3E%3Cpath d='M0 6C50 2 120 9 220 5' fill='none' stroke='%23D96C2C' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M6 13C70 9 160 15 214 11' fill='none' stroke='%23D96C2C' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E");
+  --circle-orange: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 260 120'%3E%3Cpath d='M44 58C22 30 60 14 124 16 192 18 244 30 240 60 236 92 178 108 110 104 46 100 8 86 18 56 24 38 64 22 100 26' fill='none' stroke='%23D96C2C' stroke-width='3.6' stroke-linecap='round'/%3E%3C/svg%3E");
   --circle-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 130'%3E%3Cpath d='M148 12C64 12 16 32 14 62 12 94 74 118 156 118 238 118 288 96 286 60 284 28 220 10 136 14' fill='%23F2C94C' fill-opacity='0.24' stroke='%23D96C2C' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
   --spark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 2v16M3.4 6.2l13.2 7.6M16.6 6.2L3.4 13.8' fill='none' stroke='%23D96C2C' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
   --spark-yellow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 2v16M3.4 6.2l13.2 7.6M16.6 6.2L3.4 13.8' fill='none' stroke='%23F2C94C' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
@@ -126,6 +127,7 @@ h3 {
   z-index: 40;
   border-bottom: 1px solid rgb(27 24 18 / 16%);
   background: rgb(244 242 237 / 90%);
+  -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
 }
 
@@ -357,9 +359,7 @@ h3 {
 
 .hero-title-accent {
   width: fit-content;
-  padding-bottom: 0.22em;
   color: var(--ink);
-  background: var(--scribble-orange) left bottom / 100% 0.3em no-repeat;
 }
 
 .hero-lead {
@@ -670,17 +670,6 @@ h3 {
   font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1.18;
-}
-
-.section-intro h2::after,
-.pricing-heading h2::after,
-.faq-heading h2::after {
-  display: block;
-  width: 124px;
-  height: 12px;
-  margin-top: 16px;
-  background: var(--scribble-orange) left center / contain no-repeat;
-  content: "";
 }
 
 .section-intro > p:last-child,
@@ -1316,8 +1305,8 @@ h3 {
 }
 
 .faq-heading {
-  position: sticky;
-  top: 130px;
+  /* 不跟随滚动：占满第一列即可，无需 sticky */
+  min-width: 0;
 }
 
 .faq-list {
@@ -1396,6 +1385,85 @@ h3 {
   color: var(--squiggle);
 }
 
+/* ---------- 手绘标记（覆盖式，不做字体描边） ---------- */
+/*
+  统一思路：用 inline-block 的 padding + 多层 background 叠加笔触，
+  笔触位于 "文字下方但盒子背景上方"，所以是"覆盖"在词组整体上方/下方，
+  而不是把字体的轮廓勾出来。
+*/
+
+/* 共用内联标记盒 —— 提优先级避免被 .hero h1 span{display:block} 之类规则覆盖 */
+.mark,
+.hero h1 .mark,
+.partner-section h2 .mark {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.08em;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+}
+
+/* 1. 单划线（人人都能开箱即用） —— 橙色手绘单线，紧贴文字左右两端。
+   选择器提到 .hero h1 .mark / .partner-section h2 .mark 级别，
+   防止被 .hero h1 span { display: block } 覆盖导致划线宽度异常。 */
+.mark-line,
+.hero h1 .mark-line,
+.partner-section h2 .mark-line {
+  display: inline-block;
+  padding-bottom: 0.1em;
+  background-image: var(--scribble-orange);
+  background-position: left bottom;
+  background-size: 100% 0.2em;
+  background-repeat: no-repeat;
+}
+
+/* partner 区域用黄色笔触（替代原 ::after 装饰） */
+.partner-section .mark-line {
+  background-image: var(--scribble-yellow);
+}
+
+/* 2. 手绘圆圈（选择你的电脑 / 选择） —— 包住整个词组的椭圆 */
+.mark-circle {
+  padding: 0.32em 0.5em 0.28em;
+  background-image: var(--circle-orange);
+  background-position: center;
+  background-size: 112% 210%;
+  background-repeat: no-repeat;
+}
+
+/* 3. 双划线（只需要三步 / 开始之前） —— 两条平行手绘线 */
+.mark-double {
+  padding-bottom: 0.26em;
+  background-image: var(--double-orange);
+  background-position: center bottom;
+  background-size: 104% 0.44em;
+  background-repeat: no-repeat;
+}
+
+/* 4. 波浪线（还能操作浏览器和电脑） —— 连续起伏的波浪，整条拉伸无重影 */
+.mark-wave {
+  padding-bottom: 0.18em;
+  background-image: var(--wave-orange);
+  background-position: center bottom;
+  background-size: 104% 0.28em;
+  background-repeat: no-repeat;
+}
+
+/* 5. 折线速写（按使用强度） —— 来回折返的锯齿，明显不同于其它 */
+.mark-zigzag {
+  padding-bottom: 0.32em;
+  background-image: var(--zigzag-orange);
+  background-position: center bottom;
+  background-size: 104% 0.5em;
+  background-repeat: no-repeat;
+}
+
+/* 保留 mark：黄色高亮块（仍可使用） */
+.mark-highlight {
+  padding: 0 0.32em;
+  background: linear-gradient(transparent 55%, var(--yellow) 55%);
+}
+
 /* ---------- 推广合作 ---------- */
 
 .partner-section {
@@ -1428,15 +1496,6 @@ h3 {
   font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1.2;
-}
-
-.partner-section h2::after {
-  display: block;
-  width: 124px;
-  height: 12px;
-  margin-top: 16px;
-  background: var(--scribble-yellow) left center / contain no-repeat;
-  content: "";
 }
 
 .partner-section p:last-child {
@@ -1570,7 +1629,7 @@ h3 {
   .hero {
     grid-template-columns: 1fr;
     gap: 58px;
-    min-height: auto;
+    min-height: 0;
   }
 
   .hero-copy {
@@ -1660,7 +1719,7 @@ h3 {
 
   .steps-list li,
   .steps-list li + li {
-    min-height: auto;
+    min-height: 0;
   }
 
   .capabilities-layout,
@@ -1714,6 +1773,7 @@ h3 {
   }
 
   .site-header {
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
   }
 
